@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi</title>
+    <link rel="style.sheet" href="style.css">
+
+</head>
+
+<body>
+    <form action="">
+        <legend>Konversi Uang-Uang</legend>
+
+        <label for="nilai">Masukkan Nilai</label>
+        <input type="number" id="nilai" onkeyup="konversi()">
+
+        <label for="value">Valas</label>
+        <select name="value" id="value">
+            <option value="Dollar US">Dollar US</option>
+            <option value="Dollar Singapore">Dollar Singapore</option>
+            <option value="Ringgit Malaysia">Ringgit Malaysia</option>
+            <option value="Yen Jepang">Yen Jepang</option>
+            <option value="Euro">Euro</option>
+            <option value="Riyal Arab Saudi">Riyal Arab Saudi</option>
+        </select>
+
+        <label for="rupiah">Nilai Rupiah</label>
+        <input type="number" id="rupiah" readonly>
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

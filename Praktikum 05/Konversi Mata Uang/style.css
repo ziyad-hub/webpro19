@@ -1,0 +1,10 @@
+.body {
+    background-color: red;
+    width: 100px;
+    padding: 50px;
+    color: blue;
+}
+
+.label {
+    background-color: blue;
+}
