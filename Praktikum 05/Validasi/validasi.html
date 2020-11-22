@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasi</title>
+    <style>
+        .error {
+            color: yellow;
+            visibility: visible;
+        }
+        
+        .sukses {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <ul>
+            <li>
+                <label for="nama">Nama Pelanggan : </label>
+                <input type="text" id="nama">
+                <span class="sukses"></span>
+            </li>
+            <li>
+                <label for="email">Email : </label>
+                <input type="text" id="email">
+                <span class="sukses"></span>
+            </li>
+            <li>
+                <label for="jam">Jam Keberangkatan : </label>
+                <input type="time" id="jam">
+                <span class="sukses"></span>
+            </li>
+            <li>
+                <label for="tujuan">Tujuan Keberangkatan : </label>
+                <input type="text" id="tujuan">
+                <span class="sukses"></span>
+            </li>
+            <li>
+                <label for="tiket">Jumlah Tiket : </label>
+                <input type="text" id="tiket">
+                <span class="sukses"></span>
+            </li>
+        </ul>
+
+        <button type="submit" id="submit">SUBMIT</button>
+    </form>
+
+    <div id="hasil">
+
+    </div>
+
+    <script src="Tiket.js"></script>
+
+</body>
+
+</html>
